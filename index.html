@@ -14,14 +14,18 @@
 
 <body class="no-copy">
   <h1>ML5 Demo</h1>
-  <h5>STATE: <span id="state"></span></h5>
-  <div class="load-data-wrapper">
-    <input type="file" name="pick-training-data" id="pick-training-data" placeholder="Load Training Data">
-    <input type="button" id="load-training-data-btn" value="Load Training Data">
-  </div>
-  <div class="load-model-wrapper">
-    <input type="file" name="pick-model" id="pick-model" placeholder="Load Model" multiple>
-    <input type="button" id="load-model-btn" value="Load Model">
+  <p id="info">Ne türde bir makina öğrenmesi yapacaksın?</p>
+  <div id="shared-view" style="display: none;">
+    <h3 id="task"></h3>
+    <h5>STATE: <span id="state"></span></h5>
+    <div class="load-data-wrapper">
+      <input type="file" name="pick-training-data" id="pick-training-data" placeholder="Load Training Data">
+      <input type="button" id="load-training-data-btn" value="Load Training Data">
+    </div>
+    <div class="load-model-wrapper">
+      <input type="file" name="pick-model" id="pick-model" placeholder="Load Model" multiple>
+      <input type="button" id="load-model-btn" value="Load Model">
+    </div>
   </div>
 </body>
 

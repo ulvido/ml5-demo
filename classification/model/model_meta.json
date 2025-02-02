@@ -1,1 +1,1 @@
-{"inputUnits":[2],"outputUnits":3,"inputs":{"x":{"dtype":"number","min":0,"max":858},"y":{"dtype":"number","min":0,"max":862}},"outputs":{"label":{"dtype":"string","min":0,"max":1,"uniqueValues":["C","D","E"],"legend":{"C":[1,0,0],"D":[0,1,0],"E":[0,0,1]}}},"isNormalized":true}
+{"inputUnits":[2],"outputUnits":3,"inputs":{"x":{"dtype":"number","min":0,"max":1715},"y":{"dtype":"number","min":0,"max":847}},"outputs":{"label":{"dtype":"string","min":0,"max":1,"uniqueValues":["C","D","E"],"legend":{"C":[1,0,0],"D":[0,1,0],"E":[0,0,1]}}},"isNormalized":true}

@@ -1,0 +1,1 @@
+{"inputUnits":[2],"outputUnits":1,"inputs":{"x":{"dtype":"number","min":476,"max":1122},"y":{"dtype":"number","min":152,"max":813}},"outputs":{"frequency":{"dtype":"number","min":1,"max":6}},"isNormalized":true}
