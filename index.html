@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>ML5 Demo</title>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/ml5@1.2.1/dist/ml5.min.js"></script> -->
+  <script defer src="lib/ml5@1.2.1.min.js"></script>
+  <script defer type="module" src="index.js"></script>
+</head>
+
+<body class="no-copy">
+  <h1>ML5 Demo</h1>
+  <h5>STATE: <span id="state"></span></h5>
+  <div class="load-data-wrapper">
+    <input type="file" name="pick-training-data" id="pick-training-data" placeholder="Load Training Data">
+    <input type="button" id="load-training-data-btn" value="Load Training Data">
+  </div>
+  <div class="load-model-wrapper">
+    <input type="file" name="pick-model" id="pick-model" placeholder="Load Model" multiple>
+    <input type="button" id="load-model-btn" value="Load Model">
+  </div>
+</body>
+
+</html>
