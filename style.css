@@ -16,3 +16,12 @@
 	justify-content: flex-start;
 	margin-bottom: 20px;
 }
+
+.demo-content {
+	flex: 1;
+	border: 2px solid;
+	border-radius: 4px;
+	padding: 8px;
+	min-height: 200px;
+	margin-top: 0;
+}

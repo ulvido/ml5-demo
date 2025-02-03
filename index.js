@@ -10,6 +10,7 @@ const createButton = (text, onClickFunc) => {
   let input = document.createElement("input");
   input.type = "button";
   input.value = text;
+  input.style.marginLeft = "8px";
   input.onclick = () => {
     task.innerText = text;
     sharedView.style.display = "block";
@@ -43,4 +44,9 @@ createButton("REGRESSION", () => {
   M: load model (3 dosyayı da seç)\n\
   "
   import("./regression/index.js");
+})
+
+createButton("DEMO", () => {
+  info.innerText = "Çalıştırmak istediğin demoya tıkla. Her demodan sonra sayfayı yenile."
+  import("./demo/index.js");
 })
