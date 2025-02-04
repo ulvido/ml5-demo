@@ -45,3 +45,10 @@ createButton("COLOR - BRIGHTNESS", () => {
   info.innerHTML = "COLOR - BRIGHTNESS çalıştı logları kontrol et.";
   import("./color-brightness.js");
 })
+
+createButton("FREE-MEAL", () => {
+  info.innerText = "FREE-MEAL çalıştı logları kontrol et.\n\
+  Haftanın her bir günü başka restoranda çocuk menüsü bedava.\n\
+  Güne göre çocuklara bedava menü alabilmek için hangi restorana gitmeliyim?";
+  import("./free-meal.js");
+})
