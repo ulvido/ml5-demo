@@ -52,3 +52,9 @@ createButton("FREE-MEAL", () => {
   Güne göre çocuklara bedava menü alabilmek için hangi restorana gitmeliyim?";
   import("./free-meal.js");
 })
+
+createButton("IMAGE-NUMBERS", () => {
+  info.innerText = "IMAGE-NUMBERS çalıştı logları kontrol et.\n\
+  Resimdeki rakamları tahmin et.";
+  import("./image-numbers/index.js");
+})
